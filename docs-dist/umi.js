@@ -49,7 +49,7 @@
     (n.o = function (e, t) {
       return Object.prototype.hasOwnProperty.call(e, t);
     }),
-    (n.p = '/'),
+    (n.p = './'),
     n((n.s = 0));
 })({
   '+3Ak': function (e, t, n) {
@@ -13063,7 +13063,7 @@
         return i;
       });
     var r = n('HFu6'),
-      o = { basename: '/' };
+      o = { basename: './' };
     window.routerBase && (o.basename = window.routerBase);
     var i = Object({ NODE_ENV: 'production' }).__IS_SERVER ? null : Object(r['a'])(o),
       a = function () {
